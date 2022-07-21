@@ -57,11 +57,34 @@ export class LoginComponent implements OnInit {
       
      }
 
-     //Login()
+    //  //Login()
 
-     Login(){
-      var acno = this.acno
-      var pswd = this.pswd
+    //  Login(){
+    //   var acno = this.acno
+    //   var pswd = this.pswd
+    //   let userDetails = this.userDetails
+
+
+    //   if(acno in userDetails){
+    //   if(pswd==userDetails[acno].password){
+    //     alert('login success')
+    //   }
+    //   else{
+    //     alert('incorrect password')
+    //   }
+    //   }
+    //   else{
+    //     alert('user doesnot exist')
+    //    }
+    //   }
+
+
+
+   // Login() - with 2 arguments (using template reference variable)
+
+     Login(a:any,p:any){
+      var acno = a.value
+      var pswd = p.value
       let userDetails = this.userDetails
 
 

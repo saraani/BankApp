@@ -45,9 +45,11 @@
 
                                             ( $event :- is a constent key . it have the capability to acess the details which associated by events.)
 
-                                3.1.2.3 Event binding using template referencing variable -  #variable_name
+                                3.1.2.3 data sharing  using template referencing variable -  #variable_name
 
-                                            ($event same use , No need to bind events)
+                                        (same use of $event , No need to bind events)
+                                        (give 2 arguments inside of function call , its not neccessery to keep the variable name the same ,
+                                        we can change variable name when we create the function at this point you should give variable type inside the function argument  )
                               
 
                               
