@@ -1,0 +1,66 @@
+
+
+
+                          Angular - Front End Technology
+                        ------------------------------------  
+
+
+                                    Basic commands
+                                 ......................      
+
+
+                            1. to create a project - ng new project_name / ng new project_name --routing
+                           
+                            2. to run angular project - ng serve / ng serve --open
+
+                            3. to generate component - ng g c component_name
+
+
+
+
+                            Basic building block of angular
+                          ...................................
+
+                          1. Module - To import 3rd party -(root module - AppModule)
+
+                          2. Componenet - to create html,css,ts files (Root Component - AppComponent)
+
+                          3. Data Binding - share data inside component
+                             
+                             3.1  One way binding - data sharing only one direction.
+
+                             3.1.1  component (ts) to view (html) 
+                                 
+                                 3.1.1.1 string interpolation - {{expretion}}
+
+                                 3.1.1.2 property binding - [attribute name]="property name"
+
+                            3.1.2 view(html) to component (ts)    
+
+                                3.1.2.1 Event binding -  (event name)="function-name()" 
+
+                                3.1.2.2 Event binding using $event -  (event name)="function-name($event)"
+                                
+                                            (if you need to bind event and everything with it )
+
+                                            ( $event :- is a constent key . it have the capability to acess the details which associated by events.)
+
+                                3.1.2.3 Event binding using template referencing variable -  #variable_name
+
+                                            ($event same use , No need to bind events)
+                              
+
+                              
+
+
+
+
+
+                                  
+
+                         
+
+
+                        
+
+
