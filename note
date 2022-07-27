@@ -15,6 +15,11 @@
 
                             3. to generate component - ng g c component_name
 
+                            4. to generate service - ng g s service _name
+                            
+                            (it wont create folder.it neccessery to create folder manualy and open git and leave the command)
+
+
 
 
 
@@ -35,7 +40,7 @@
 
                                  3.1.1.2 property binding - [attribute name]="property name"
 
-                            3.1.2 view(html) to component (ts)    
+                             3.1.2 view(html) to component (ts)    
 
                                 3.1.2.1 Event binding -  (event name)="function-name()" 
 
@@ -50,6 +55,74 @@
                                         (same use of $event , No need to bind events)
                                         (give 2 arguments inside of function call , its not neccessery to keep the variable name the same ,
                                         we can change variable name when we create the function at this point you should give variable type inside the function argument  )
+
+                              3.2 Two way binding - Data sharing in both directionat -
+
+                                 3.2.1  ngModel - import FormsModule in AppModule or RootModule
+
+                                 syntax :- [(ngModel)]="property-name"   (you should define property name in the curresponding ts file)
+
+                                  (Angular achieving 2 way binding by using ngModel method)
+                                  (if you are using mgModel within the form tag you should set the name attribute eg :- name = "aname")
+
+                          4.angular Routing  - to set path for component      
+
+                                  Path setting :- open -> app-routing.module.ts -> under the const routes:Routes =[inside this array set the path]
+
+                                  Path setting syntax  :- const routes : Routes =[
+                                                           {
+                                                              path : ' ' , component : currespondin ts file class name
+                                                            }
+                                                       ];
+
+                                  :- use router-outlet selector inside the root component to redirect  user requested  pages                    
+                          
+                          5. dependency injection - sharing data of one class to depentent one ,it assingning class  object to depentend class
+                                     (to share data between depentend classess.if there have any depentent classes ,insents of one class asigning  to athor class object  )
+                                     (inside of the constructor() function give a object varible,before that set a access specifier to that variable. access specifier :- file il evedeyokke aa variable use cheyyam enn munkootti parayunnu ,otherwisw its default value is public )
+                                     links link cheyyan href alla athinu paaram routerLink aahnn usecheyyunnath.
+
+
+                        6. Angular services  - to hold redundant data  (if we need data throuout the application itcause data duplicate / data redundentcy,
+                        angular provides servieces  to strore these data) angular service page is directly connected to database.so you have to give function call inside the service component.ts file,its make your code easy and neet and its reduce the unwanted codes.
+
+                        7. ngSumbit - form enterly submit avaan, 
+
+                        syntax :- <form (ngSubmit)="function-name()>
+
+                        And delet curresponding function call from button and change button type in to submit.
+
+
+                        8.  Angular   
+
+
+
+
+
+
+
+
+
+                        9. Angular Form
+
+                          9.1 template driven form - first design html
+
+                          9.2 Model driven form - first design in ts file 
+
+                              9.2.1 reactive forms - form group, array, control
+
+                                    - Add validations
+
+                                    - import ReactiveFormsModule
+
+                                    - 
+
+
+                                      
+
+
+
+
                               
 
                               
